@@ -1,0 +1,125 @@
+.custom-layout {
+  text-align: center;
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;
+  background-color: #fff;
+}
+
+.image {
+  margin-bottom: 30px;
+}
+
+.image img {
+  border: 2px dashed #227ffd;
+  padding: 10px;
+  border-radius: 50%;
+  max-width: 90%;
+}
+
+.about-content .title {
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+
+.about-content .desc {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.about-social ul li a {
+  font-size: 20px;
+  border: 1px solid #eee;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #011337;
+}
+
+.about-social ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.about-details .desc {
+  font-size: 14.8px;
+  margin-bottom: 17px;
+}
+
+.feature-style-one {
+  padding: 40px;
+  /* background: linear-gradient(0deg, #b8e2fa66 40%, #FFF 60%); */
+  background: linear-gradient(0deg, #f5fbfe 40%, #FBFBFD00 60%);
+  border-radius: 10px;
+  border: 2px solid #e9e9e9;
+}
+
+.feature-style-one p {
+  margin: 0;
+  font-size: 16px;
+  color: #7F879E;
+}
+
+.experience {
+  background: #f5fbfe;
+}
+
+.single-resume {
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;
+  background-color: #fff;
+}
+
+.resume-item {
+  display: flex;
+  border-bottom: 1px solid rgba(119, 119, 125, .2);
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.single-resume .title {
+  font-size: 26px;
+}
+
+.content h4 {
+  color: #121212;
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 0 0 14px 0;
+  letter-spacing: -.05em;
+}
+
+.content li,
+.content p {
+  color: #7F879E;
+  text-transform: none;
+  font-weight: 500;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+
+.feature-style-one h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #011337;
+}
+
+.feature-style-one li {
+  color: #7F879E;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.feature-style-one li a {
+  text-decoration: underline !important;
+}
