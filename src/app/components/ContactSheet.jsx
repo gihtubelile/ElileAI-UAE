@@ -3,6 +3,25 @@
 import { useState } from "react";
 import { addRegistration } from "../action";
 
+const WHATSAPP_NUMBER = "971563292225";
+
+const openWhatsApp = (formData) => {
+  const text = [
+    "Hi Elile, I just submitted the contact form on your website.",
+    "",
+    `Name: ${formData.get("firstName")} ${formData.get("lastName")}`,
+    `Email: ${formData.get("email")}`,
+    `Phone: ${formData.get("phone")}`,
+    "",
+    `Message: ${formData.get("message")}`,
+  ].join("\n");
+  window.open(
+    `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`,
+    "_blank",
+    "noopener"
+  );
+};
+
 export default function ContactForm() {
   const [isPending, setIsPending] = useState(false);
 
@@ -10,6 +29,8 @@ export default function ContactForm() {
     e.preventDefault();
     setIsPending(true);
     const formData = new FormData(e.target);
+    // Open before awaiting so browsers treat it as part of the click and don't block the popup
+    openWhatsApp(formData);
     const res = await addRegistration(formData);
     const toastEl = document.getElementById("liveToast");
     const toastMsg = document.getElementById("toastMessage");

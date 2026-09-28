@@ -44,7 +44,7 @@ function page() {
                     reliable performance across mission-critical operations.
                   </p>
 
-                  <Link href="tel:+9710563292225" className="default-btn">
+                  <Link href="tel:+971563292225" className="default-btn">
                     Schedule Call
                     <GoArrowUpRight />
                   </Link>

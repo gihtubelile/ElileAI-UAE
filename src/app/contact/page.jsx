@@ -63,7 +63,7 @@ const page = () => {
                   </div>
                   <div className="contact-content">
                     <h4 className="contact-content-title">Talk to us!</h4>
-                    <Link href="tel:+9710563292225">+ 971 056.329.2225</Link>
+                    <Link href="tel:+971563292225">+ 971 56.329.2225</Link>
                   </div>
                 </div>
               </div>

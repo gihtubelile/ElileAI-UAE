@@ -54,7 +54,7 @@ const ServiceDetail = () => {
                   operations.
                 </p>
                 <div className="whyChoose-btn mt-4 mt-lg-5">
-                  <Link className="default-btn" href="tel:+9710563292225">
+                  <Link className="default-btn" href="tel:+971563292225">
                     Book A Call
                   </Link>
                 </div>
