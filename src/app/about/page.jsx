@@ -3,6 +3,7 @@ import { Journey } from "../components/Journey";
 import { Capability } from "../components/Capability";
 import Link from "next/link";
 
+
 const page = () => {
   return (
     <>
